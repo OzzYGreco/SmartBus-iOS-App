@@ -28,23 +28,23 @@ SmartBus is an iOS application built with SwiftUI for a smart bus service in Ath
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/home_passenger.png" width="200"/><br/><sub>Home - Passenger</sub></td>
-    <td align="center"><img src="screenshots/home_employee.png" width="200"/><br/><sub>Home - Employee</sub></td>
-    <td align="center"><img src="screenshots/coffee_places.png" width="200"/><br/><sub>Coffee Places</sub></td>
+    <td align="center"><img src="Screenshots/home_passenger.png" width="200"/><br/><sub>Home - Passenger</sub></td>
+    <td align="center"><img src="Screenshots/home_employee.png" width="200"/><br/><sub>Home - Employee</sub></td>
+    <td align="center"><img src="Screenshots/coffee_places.png" width="200"/><br/><sub>Coffee Places</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/coffee_menu.png" width="200"/><br/><sub>Coffee Menu</sub></td>
-    <td align="center"><img src="screenshots/vacuum_seats.png" width="200"/><br/><sub>Vacuum Seat Selection</sub></td>
-    <td align="center"><img src="screenshots/drivers_view.png" width="200"/><br/><sub>Driver's View</sub></td>
+    <td align="center"><img src="Screenshots/coffee_menu.png" width="200"/><br/><sub>Coffee Menu</sub></td>
+    <td align="center"><img src="Screenshots/vacuum_seats.png" width="200"/><br/><sub>Vacuum Seat Selection</sub></td>
+    <td align="center"><img src="Screenshots/drivers_view.png" width="200"/><br/><sub>Driver's View</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/landmarks.png" width="200"/><br/><sub>Nearby Landmarks</sub></td>
-    <td align="center"><img src="screenshots/walking_navigation.png" width="200"/><br/><sub>Walking Navigation</sub></td>
-    <td align="center"><img src="screenshots/driver_dashboard.png" width="200"/><br/><sub>Driver Dashboard</sub></td>
+    <td align="center"><img src="Screenshots/landmarks.png" width="200"/><br/><sub>Nearby Landmarks</sub></td>
+    <td align="center"><img src="Screenshots/walking_navigation.png" width="200"/><br/><sub>Walking Navigation</sub></td>
+    <td align="center"><img src="Screenshots/driver_dashboard.png" width="200"/><br/><sub>Driver Dashboard</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/climate_control.png" width="200"/><br/><sub>Climate Control</sub></td>
-    <td align="center"><img src="screenshots/energy_dashboard.png" width="200"/><br/><sub>Energy Dashboard</sub></td>
+    <td align="center"><img src="Screenshots/climate_control.png" width="200"/><br/><sub>Climate Control</sub></td>
+    <td align="center"><img src="Screenshots/energy_dashboard.png" width="200"/><br/><sub>Energy Dashboard</sub></td>
   </tr>
 </table>
 
