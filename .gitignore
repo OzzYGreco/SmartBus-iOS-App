@@ -1,0 +1,25 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.pbxproj.backup*
+*.pbxproj.backup
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.xcworkspace/xcuserdata
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude / AI
+.claude/
+**/.claude/
+
+# Internal docs
+SmartBus/ASSIGNMENT_COMPLIANCE.md
+SmartBus/KEYBOARD_FIX.md
+*.pdf

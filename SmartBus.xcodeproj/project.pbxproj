@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421AE51A2F0EBC2F00255794 /* HelpContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AE5192F0EBC2F00255794 /* HelpContent.swift */; };
+		421AE51C2F0EBC4500255794 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AE51B2F0EBC4500255794 /* HelpView.swift */; };
+		421AE51E2F0EBC5700255794 /* HelpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AE51D2F0EBC5700255794 /* HelpButton.swift */; };
+		427AC0042F0EA62700E14B97 /* DismissToRootKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427AC0032F0EA62600E14B97 /* DismissToRootKey.swift */; };
+		42AB280C2F44EED000E53D65 /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB280B2F44EED000E53D65 /* UserRole.swift */; };
+		42AB280E2F44EEE800E53D65 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB280D2F44EEE800E53D65 /* AuthManager.swift */; };
+		42AB28102F44EF0100E53D65 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB280F2F44EF0100E53D65 /* LoginView.swift */; };
+		42F7C4782F44ACC700337E6B /* DriverDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4702F44ACC700337E6B /* DriverDashboardView.swift */; };
+		42F7C4792F44ACC700337E6B /* TouristNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4772F44ACC700337E6B /* TouristNavigationView.swift */; };
+		42F7C47A2F44ACC700337E6B /* ClimateControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C46F2F44ACC700337E6B /* ClimateControlView.swift */; };
+		42F7C47B2F44ACC700337E6B /* DriverViewStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4712F44ACC700337E6B /* DriverViewStreamView.swift */; };
+		42F7C47C2F44ACC700337E6B /* RoofControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4762F44ACC700337E6B /* RoofControlView.swift */; };
+		42F7C47D2F44ACC700337E6B /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4732F44ACC700337E6B /* LandmarkDetailView.swift */; };
+		42F7C47E2F44ACC700337E6B /* LandmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4742F44ACC700337E6B /* LandmarksView.swift */; };
+		42F7C47F2F44ACC700337E6B /* OrderTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4752F44ACC700337E6B /* OrderTrackingView.swift */; };
+		42F7C4802F44ACC700337E6B /* EnergyDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4722F44ACC700337E6B /* EnergyDashboardView.swift */; };
+		42F7C4862F44ACE000337E6B /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4852F44ACE000337E6B /* WeatherManager.swift */; };
+		42F7C4872F44ACE000337E6B /* EnergyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4812F44ACE000337E6B /* EnergyManager.swift */; };
+		42F7C4882F44ACE000337E6B /* LocationSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4832F44ACE000337E6B /* LocationSimulator.swift */; };
+		42F7C4892F44ACE000337E6B /* LandmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4822F44ACE000337E6B /* LandmarkManager.swift */; };
+		42F7C48A2F44ACE000337E6B /* SafetyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4842F44ACE000337E6B /* SafetyManager.swift */; };
+		42F7C4982F44AD7200337E6B /* DrivingAssistanceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4912F44AD7200337E6B /* DrivingAssistanceState.swift */; };
+		42F7C4992F44AD7200337E6B /* EnergyConsumption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4922F44AD7200337E6B /* EnergyConsumption.swift */; };
+		42F7C49A2F44AD7200337E6B /* RoofState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4962F44AD7200337E6B /* RoofState.swift */; };
+		42F7C49B2F44AD7200337E6B /* DriverViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4902F44AD7200337E6B /* DriverViewState.swift */; };
+		42F7C49C2F44AD7200337E6B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4942F44AD7200337E6B /* Order.swift */; };
+		42F7C49D2F44AD7200337E6B /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4972F44AD7200337E6B /* WeatherData.swift */; };
+		42F7C49E2F44AD7200337E6B /* BusRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C48D2F44AD7200337E6B /* BusRoute.swift */; };
+		42F7C49F2F44AD7200337E6B /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C48E2F44AD7200337E6B /* BusStop.swift */; };
+		42F7C4A02F44AD7200337E6B /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4932F44AD7200337E6B /* Landmark.swift */; };
+		42F7C4A12F44AD7200337E6B /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4952F44AD7200337E6B /* PaymentMethod.swift */; };
+		42F7C4A22F44AD7200337E6B /* ClimateSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C48F2F44AD7200337E6B /* ClimateSettings.swift */; };
+		42F7C4A52F44AD8000337E6B /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4A32F44AD8000337E6B /* AudioPlayerView.swift */; };
+		42F7C4A62F44AD8000337E6B /* SafetyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7C4A42F44AD8000337E6B /* SafetyAlertView.swift */; };
+		AA0000000000000000000001 /* SmartBusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000001 /* SmartBusApp.swift */; };
+		AA0000000000000000000002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* HomeView.swift */; };
+		AA0000000000000000000003 /* CoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000003 /* CoffeeOrderView.swift */; };
+		AA0000000000000000000004 /* VacuumServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000004 /* VacuumServiceView.swift */; };
+		AA0000000000000000000005 /* GlassmorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000005 /* GlassmorphicButton.swift */; };
+		AA0000000000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000006 /* Assets.xcassets */; };
+		AA0000000000000000000007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000008 /* Preview Assets.xcassets */; };
+		AA0000000000000000000009 /* CoffeeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000009 /* CoffeeMenuView.swift */; };
+		AA0000000000000000000010 /* CoffeePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000010 /* CoffeePlace.swift */; };
+		AA0000000000000000000011 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000011 /* MenuItem.swift */; };
+		AA0000000000000000000012 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000012 /* CartManager.swift */; };
+		AA0000000000000000000013 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000013 /* CartView.swift */; };
+		AA0000000000000000000014 /* PaymentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000014 /* PaymentSelectionView.swift */; };
+		AA0000000000000000000015 /* PaymentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000015 /* PaymentDetailView.swift */; };
+		AA0000000000000000000016 /* OrderConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000016 /* OrderConfirmationView.swift */; };
+		AA0000000000000000000017 /* VacuumSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000017 /* VacuumSettingsView.swift */; };
+		AA0000000000000000000018 /* VacuumConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000018 /* VacuumConfirmationView.swift */; };
+		DA3F82A7ECB440D1A7ECF3E0 /* LostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D915D07C3534D269E0C2975 /* LostItem.swift */; };
+		E6E757798563414ABF8DEFE8 /* LostItemsAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F589E8105424DE5A7CE8184 /* LostItemsAlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		421AE5192F0EBC2F00255794 /* HelpContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpContent.swift; sourceTree = "<group>"; };
+		421AE51B2F0EBC4500255794 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		421AE51D2F0EBC5700255794 /* HelpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpButton.swift; sourceTree = "<group>"; };
+		427AC0032F0EA62600E14B97 /* DismissToRootKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissToRootKey.swift; sourceTree = "<group>"; };
+		42AB280B2F44EED000E53D65 /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
+		42AB280D2F44EEE800E53D65 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		42AB280F2F44EF0100E53D65 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		42F7C46F2F44ACC700337E6B /* ClimateControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateControlView.swift; sourceTree = "<group>"; };
+		42F7C4702F44ACC700337E6B /* DriverDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDashboardView.swift; sourceTree = "<group>"; };
+		42F7C4712F44ACC700337E6B /* DriverViewStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewStreamView.swift; sourceTree = "<group>"; };
+		42F7C4722F44ACC700337E6B /* EnergyDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyDashboardView.swift; sourceTree = "<group>"; };
+		42F7C4732F44ACC700337E6B /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
+		42F7C4742F44ACC700337E6B /* LandmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksView.swift; sourceTree = "<group>"; };
+		42F7C4752F44ACC700337E6B /* OrderTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTrackingView.swift; sourceTree = "<group>"; };
+		42F7C4762F44ACC700337E6B /* RoofControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofControlView.swift; sourceTree = "<group>"; };
+		42F7C4772F44ACC700337E6B /* TouristNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristNavigationView.swift; sourceTree = "<group>"; };
+		42F7C4812F44ACE000337E6B /* EnergyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyManager.swift; sourceTree = "<group>"; };
+		42F7C4822F44ACE000337E6B /* LandmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkManager.swift; sourceTree = "<group>"; };
+		42F7C4832F44ACE000337E6B /* LocationSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSimulator.swift; sourceTree = "<group>"; };
+		42F7C4842F44ACE000337E6B /* SafetyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyManager.swift; sourceTree = "<group>"; };
+		42F7C4852F44ACE000337E6B /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		42F7C48D2F44AD7200337E6B /* BusRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRoute.swift; sourceTree = "<group>"; };
+		42F7C48E2F44AD7200337E6B /* BusStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
+		42F7C48F2F44AD7200337E6B /* ClimateSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateSettings.swift; sourceTree = "<group>"; };
+		42F7C4902F44AD7200337E6B /* DriverViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewState.swift; sourceTree = "<group>"; };
+		42F7C4912F44AD7200337E6B /* DrivingAssistanceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingAssistanceState.swift; sourceTree = "<group>"; };
+		42F7C4922F44AD7200337E6B /* EnergyConsumption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyConsumption.swift; sourceTree = "<group>"; };
+		42F7C4932F44AD7200337E6B /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		42F7C4942F44AD7200337E6B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		42F7C4952F44AD7200337E6B /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		42F7C4962F44AD7200337E6B /* RoofState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofState.swift; sourceTree = "<group>"; };
+		42F7C4972F44AD7200337E6B /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		42F7C4A32F44AD8000337E6B /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		42F7C4A42F44AD8000337E6B /* SafetyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyAlertView.swift; sourceTree = "<group>"; };
+		6F589E8105424DE5A7CE8184 /* LostItemsAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostItemsAlertView.swift; sourceTree = "<group>"; };
+		9D915D07C3534D269E0C2975 /* LostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostItem.swift; sourceTree = "<group>"; };
+		BB0000000000000000000001 /* SmartBusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartBusApp.swift; sourceTree = "<group>"; };
+		BB0000000000000000000002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000003 /* CoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOrderView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000004 /* VacuumServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacuumServiceView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000005 /* GlassmorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphicButton.swift; sourceTree = "<group>"; };
+		BB0000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0000000000000000000008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB0000000000000000000009 /* CoffeeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenuView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000010 /* CoffeePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeePlace.swift; sourceTree = "<group>"; };
+		BB0000000000000000000011 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		BB0000000000000000000012 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		BB0000000000000000000013 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000014 /* PaymentSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSelectionView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000015 /* PaymentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000016 /* OrderConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000017 /* VacuumSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacuumSettingsView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000018 /* VacuumConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacuumConfirmationView.swift; sourceTree = "<group>"; };
+		CC0000000000000000000001 /* SmartBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBCE71ACA1D4958ADEB00B6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				42AB280D2F44EEE800E53D65 /* AuthManager.swift */,
+				42F7C4852F44ACE000337E6B /* WeatherManager.swift */,
+				42F7C4822F44ACE000337E6B /* LandmarkManager.swift */,
+				42F7C4842F44ACE000337E6B /* SafetyManager.swift */,
+				42F7C4812F44ACE000337E6B /* EnergyManager.swift */,
+				42F7C4832F44ACE000337E6B /* LocationSimulator.swift */,
+			);
+			name = Managers;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4269A4A72F44AE670089AF10 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000007 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000008 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				EE0000000000000000000002 /* SmartBus */,
+				EE0000000000000000000003 /* Products */,
+				4269A4A72F44AE670089AF10 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0000000000000000000002 /* SmartBus */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000001 /* SmartBusApp.swift */,
+				EE0000000000000000000004 /* Views */,
+				EE0000000000000000000005 /* Components */,
+				EE0000000000000000000006 /* Models */,
+				2CBCE71ACA1D4958ADEB00B6 /* Managers */,
+				BB0000000000000000000006 /* Assets.xcassets */,
+				BB0000000000000000000007 /* Preview Content */,
+			);
+			path = SmartBus;
+			sourceTree = "<group>";
+		};
+		EE0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000001 /* SmartBus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0000000000000000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42AB280F2F44EF0100E53D65 /* LoginView.swift */,
+				42F7C46F2F44ACC700337E6B /* ClimateControlView.swift */,
+				42F7C4702F44ACC700337E6B /* DriverDashboardView.swift */,
+				42F7C4712F44ACC700337E6B /* DriverViewStreamView.swift */,
+				42F7C4722F44ACC700337E6B /* EnergyDashboardView.swift */,
+				42F7C4732F44ACC700337E6B /* LandmarkDetailView.swift */,
+				42F7C4742F44ACC700337E6B /* LandmarksView.swift */,
+				42F7C4752F44ACC700337E6B /* OrderTrackingView.swift */,
+				42F7C4762F44ACC700337E6B /* RoofControlView.swift */,
+				42F7C4772F44ACC700337E6B /* TouristNavigationView.swift */,
+				421AE51B2F0EBC4500255794 /* HelpView.swift */,
+				BB0000000000000000000002 /* HomeView.swift */,
+				BB0000000000000000000003 /* CoffeeOrderView.swift */,
+				BB0000000000000000000009 /* CoffeeMenuView.swift */,
+				BB0000000000000000000013 /* CartView.swift */,
+				BB0000000000000000000014 /* PaymentSelectionView.swift */,
+				BB0000000000000000000015 /* PaymentDetailView.swift */,
+				BB0000000000000000000016 /* OrderConfirmationView.swift */,
+				BB0000000000000000000004 /* VacuumServiceView.swift */,
+				BB0000000000000000000017 /* VacuumSettingsView.swift */,
+				BB0000000000000000000018 /* VacuumConfirmationView.swift */,
+				6F589E8105424DE5A7CE8184 /* LostItemsAlertView.swift */,
+				427AC0032F0EA62600E14B97 /* DismissToRootKey.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE0000000000000000000005 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				42F7C4A32F44AD8000337E6B /* AudioPlayerView.swift */,
+				42F7C4A42F44AD8000337E6B /* SafetyAlertView.swift */,
+				421AE51D2F0EBC5700255794 /* HelpButton.swift */,
+				BB0000000000000000000005 /* GlassmorphicButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EE0000000000000000000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42AB280B2F44EED000E53D65 /* UserRole.swift */,
+				42F7C48D2F44AD7200337E6B /* BusRoute.swift */,
+				42F7C48E2F44AD7200337E6B /* BusStop.swift */,
+				42F7C48F2F44AD7200337E6B /* ClimateSettings.swift */,
+				42F7C4902F44AD7200337E6B /* DriverViewState.swift */,
+				42F7C4912F44AD7200337E6B /* DrivingAssistanceState.swift */,
+				42F7C4922F44AD7200337E6B /* EnergyConsumption.swift */,
+				42F7C4932F44AD7200337E6B /* Landmark.swift */,
+				42F7C4942F44AD7200337E6B /* Order.swift */,
+				42F7C4952F44AD7200337E6B /* PaymentMethod.swift */,
+				42F7C4962F44AD7200337E6B /* RoofState.swift */,
+				42F7C4972F44AD7200337E6B /* WeatherData.swift */,
+				421AE5192F0EBC2F00255794 /* HelpContent.swift */,
+				BB0000000000000000000010 /* CoffeePlace.swift */,
+				BB0000000000000000000011 /* MenuItem.swift */,
+				9D915D07C3534D269E0C2975 /* LostItem.swift */,
+				BB0000000000000000000012 /* CartManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		GG0000000000000000000001 /* SmartBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = HH0000000000000000000001 /* Build configuration list for PBXNativeTarget "SmartBus" */;
+			buildPhases = (
+				II0000000000000000000001 /* Sources */,
+				FF0000000000000000000001 /* Frameworks */,
+				JJ0000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartBus;
+			productName = SmartBus;
+			productReference = CC0000000000000000000001 /* SmartBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		KK0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					GG0000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = LL0000000000000000000001 /* Build configuration list for PBXProject "SmartBus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE0000000000000000000001;
+			productRefGroup = EE0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				GG0000000000000000000001 /* SmartBus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		JJ0000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000007 /* Preview Assets.xcassets in Resources */,
+				AA0000000000000000000006 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		II0000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000001 /* SmartBusApp.swift in Sources */,
+				421AE51E2F0EBC5700255794 /* HelpButton.swift in Sources */,
+				AA0000000000000000000002 /* HomeView.swift in Sources */,
+				421AE51A2F0EBC2F00255794 /* HelpContent.swift in Sources */,
+				AA0000000000000000000003 /* CoffeeOrderView.swift in Sources */,
+				AA0000000000000000000009 /* CoffeeMenuView.swift in Sources */,
+				AA0000000000000000000013 /* CartView.swift in Sources */,
+				427AC0042F0EA62700E14B97 /* DismissToRootKey.swift in Sources */,
+				AA0000000000000000000014 /* PaymentSelectionView.swift in Sources */,
+				AA0000000000000000000015 /* PaymentDetailView.swift in Sources */,
+				AA0000000000000000000016 /* OrderConfirmationView.swift in Sources */,
+				AA0000000000000000000004 /* VacuumServiceView.swift in Sources */,
+				AA0000000000000000000017 /* VacuumSettingsView.swift in Sources */,
+				AA0000000000000000000018 /* VacuumConfirmationView.swift in Sources */,
+				421AE51C2F0EBC4500255794 /* HelpView.swift in Sources */,
+				AA0000000000000000000005 /* GlassmorphicButton.swift in Sources */,
+				AA0000000000000000000010 /* CoffeePlace.swift in Sources */,
+				42F7C4782F44ACC700337E6B /* DriverDashboardView.swift in Sources */,
+				42F7C4862F44ACE000337E6B /* WeatherManager.swift in Sources */,
+				42F7C4982F44AD7200337E6B /* DrivingAssistanceState.swift in Sources */,
+				42F7C4992F44AD7200337E6B /* EnergyConsumption.swift in Sources */,
+				42F7C49A2F44AD7200337E6B /* RoofState.swift in Sources */,
+				42F7C49B2F44AD7200337E6B /* DriverViewState.swift in Sources */,
+				42F7C49C2F44AD7200337E6B /* Order.swift in Sources */,
+				42F7C49D2F44AD7200337E6B /* WeatherData.swift in Sources */,
+				42F7C4A52F44AD8000337E6B /* AudioPlayerView.swift in Sources */,
+				42F7C4A62F44AD8000337E6B /* SafetyAlertView.swift in Sources */,
+				42AB28102F44EF0100E53D65 /* LoginView.swift in Sources */,
+				42F7C49E2F44AD7200337E6B /* BusRoute.swift in Sources */,
+				42F7C49F2F44AD7200337E6B /* BusStop.swift in Sources */,
+				42AB280C2F44EED000E53D65 /* UserRole.swift in Sources */,
+				42F7C4A02F44AD7200337E6B /* Landmark.swift in Sources */,
+				42F7C4A12F44AD7200337E6B /* PaymentMethod.swift in Sources */,
+				42F7C4A22F44AD7200337E6B /* ClimateSettings.swift in Sources */,
+				42F7C4872F44ACE000337E6B /* EnergyManager.swift in Sources */,
+				42F7C4882F44ACE000337E6B /* LocationSimulator.swift in Sources */,
+				42F7C4892F44ACE000337E6B /* LandmarkManager.swift in Sources */,
+				42F7C48A2F44ACE000337E6B /* SafetyManager.swift in Sources */,
+				42F7C4792F44ACC700337E6B /* TouristNavigationView.swift in Sources */,
+				42F7C47A2F44ACC700337E6B /* ClimateControlView.swift in Sources */,
+				42F7C47B2F44ACC700337E6B /* DriverViewStreamView.swift in Sources */,
+				42F7C47C2F44ACC700337E6B /* RoofControlView.swift in Sources */,
+				42F7C47D2F44ACC700337E6B /* LandmarkDetailView.swift in Sources */,
+				42F7C47E2F44ACC700337E6B /* LandmarksView.swift in Sources */,
+				42F7C47F2F44ACC700337E6B /* OrderTrackingView.swift in Sources */,
+				42F7C4802F44ACC700337E6B /* EnergyDashboardView.swift in Sources */,
+				AA0000000000000000000011 /* MenuItem.swift in Sources */,
+				AA0000000000000000000012 /* CartManager.swift in Sources */,
+				DA3F82A7ECB440D1A7ECF3E0 /* LostItem.swift in Sources */,
+				E6E757798563414ABF8DEFE8 /* LostItemsAlertView.swift in Sources */,
+				42AB280E2F44EEE800E53D65 /* AuthManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		MM0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		MM0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		NN0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartBus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Athens Bus";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartbus.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		NN0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartBus/Preview Content\"";
+				DEVELOPMENT_TEAM = W3J2D54T8X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Athens Bus";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartbus.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		HH0000000000000000000001 /* Build configuration list for PBXNativeTarget "SmartBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				NN0000000000000000000001 /* Debug */,
+				NN0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		LL0000000000000000000001 /* Build configuration list for PBXProject "SmartBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				MM0000000000000000000001 /* Debug */,
+				MM0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = KK0000000000000000000001 /* Project object */;
+}
